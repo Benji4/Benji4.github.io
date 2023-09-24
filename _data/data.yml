@@ -4,90 +4,83 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Bennet Breier
-    tagline: Data Engineer
+    tagline: Senior Data Engineer
     avatar: bennet.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: bennetbreier@gmail.com
-    phone: 012 345 6789
+    phone: +41 77 *** ** **
     timezone: Bern
     citizenship: German
-    website: blog.webjeda.com #do not add http://
+    website: # blog.webjeda.com #do not add http://
     linkedin: bennetbreier
-    xing: alandoe
+    xing: # alandoe
     github: Benji4
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
     twitter: '@bennetbreier'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 3692004/benji # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: German
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
         - idiom: Spanish
-          level: Professional
+          level: Advanced
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Singing & Guitar
+          link: https://open.spotify.com/artist/3uh1WWJ7Alz4hEIMlL8ve2
+
+        - item: Hiking & Running
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Leadership & Relationships
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Understanding what truly creates value and what my client therefore needs is my first priority.
+      It makes me happy when I can observe how a fleshed-out and well-conceived solution is brought to life and makes a difference.
+      I have implemented data-wrangling jobs on Foundry, Machine Learning models in plain scipy, and interactive dashboards for sales representatives in PowerBI.
+      I enjoy working both on the nitty-gritty of PoCs, as well as the complexities of full platforms governing the entire life cycles of datasets.
+      It’s always a team effort, which is why in the future, I would like to take more responsibility in a leadership role.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Artificial Intelligence
+        university: The University of Edinburgh
+        time: 2018 - 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Focus on Machine Learning methods, especially Computer Vision
+          Grade: 78 Distinction (1st)
+            - Thesis: "Analysis of Feature Learning in CNNs on the Example of Video Recordings of Zebrafish" (implemented in Python)
+            - Published at ICLR2020: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification"
+      - degree: BSc in Computer Science and BSc in Business Administration
+        university: Technische Universität München
+        time: 2013 - 2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Grades: 1.6 (Computer Science) and 1.8 (Business Administration)
+            - Thesis: "Technical Analysis of the Tangle in the IOTA-Environment"
+            - Thesis: "A Framework for Integer Programs for Relocation in One-Way Carsharing Systems"
+
 
 experiences:
     title: Experiences

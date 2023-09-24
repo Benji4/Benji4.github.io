@@ -237,7 +237,7 @@ skills:
 
     toolset:
       - name: Python
-        level: 100%
+        level: 97%
 
       - name: Spark
         level: 92%
@@ -245,17 +245,23 @@ skills:
       - name: SQL
         level: 84%
 
-      - name: Palantir Foundry Platform
+      - name: Palantir Foundry
         level: 76%
 
       - name: Cloud (Azure, GCP)
-        level: 69%
+        level: 61%
+      
+      - name: SciPy & Pandas
+        level: 65%
       
       - name: PyTorch
-        level: 60%
+        level: 45%
       
       - name: Java
-        level: 69%
+        level: 59%
+      
+      - name: Git
+        level: 78%
       
       - name: Web Development
         level: 62%
@@ -264,8 +270,14 @@ skills:
         level: 73%
 
       - name: PowerPoint
+        level: 73%
+      
+      - name: Consulting
+        level: 84%
+      
+      - name: Team Leadership
         level: 79%
 
 footer: >
-    © 2023 Bennet Breier
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    © 2023 Bennet Breier</br>
+    Designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

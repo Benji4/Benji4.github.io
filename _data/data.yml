@@ -24,7 +24,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@bennetbreier'
+    twitter:
     stack-overflow: 3692004/benji # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -85,43 +85,54 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Data Engineer (IT Consulting)
+        time: Jan 2023 - Present
+        company: Unit8 SA, Zurich
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Establish a Foundry platform for data from several ESG data providers, distributed internally, for a large Swiss bank.
+	        - Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client. ("Entity Resolution")
+          Tools: Palantir Foundry, PySpark, Atlassian
+      - role: Research Internship
+        time: Jul - Dec 2022
+        company: Computational Neuroscience Lab, University Bern, Bern
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Investigate the mathematics of and experiment with a new kind of biologically-plausible neural networks, enabling memory-requiring tasks.
+          Tools: Python, Numpy
+      - role: External Collaborator 
+        time: Nov 2021 - Jun 2022
+        company: BCN-AIM at University Barcelona, remote (Düsseldorf)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Improve the classification performance of CNNs and Transformers on 128x128px mammography images with GAN-generated synthetic data.
+          Tools: PyTorch, git
+      - role: Analytics Professional
+        time: Jan 2020 - Sep 2021
+        company: Deloitte, Düsseldorf
+        details: |
+          - Develop an AI solution for the automatic extraction of hardcopy tax notices and an innovative administration tool for the internal post office (Python, Abbyy, ASP.NET, Angular)
+          - Implement and present a regression system to predict sales ratios for a manufacturer of nicotine products to improve their distribution channels (Python data science stack (SciPy etc.), PowerBI, PowerPoint)
+          - Develop an interactive dashboard for a consumer goods firm enhancing sales negotiations with retailers in the German market (PowerBI, MS SQL)
+          - Advice on establishing a Center of Excellence for Process and Task Mining in a large German industrial manufacturing company (Celonis, PowerPoint)
+          - Rotate through all five business-units via the Analytics Journey, a traineeship program.
+          Other tools: Git, Atlassian, internal statistical tools
+      - role: Internship (IT consulting) 
+        time: Apr - Jun 2018
+        company: Senacor Technologies AG, Munich
+        details: |
+          Advise program control on setting up and running global IT-systems to enable a smooth customer-ecosystem for a large German car maker.
+          Tools: PowerPoint, Confluence
+      - role: University Project Studies
+        time: Jun - Aug 2016
+        company: Accenture Services GmbH, Munich
+        details: |
+          Develop a web-based system automating the process of organigram creation for one of Accenture's key-accounts.
+          Tools:  Microsoft SharePoint, VBA, PowerShell, JavaScript, Java
+      - role: Student employee (App-Development)
+        time: Sep 2013 - Jul 2014
+        company: Weptun GmbH, Munich
+        details: |
+          Design, implement, and test various business apps for iOS and Android.
+          Tools: Git, Redmine, AppConKit, JavaScript, Java
+
 
 certifications:
       title: Certifications
@@ -243,10 +254,10 @@ skills:
         level: 92%
 
       - name: SQL
-        level: 84%
+        level: 80%
 
       - name: Palantir Foundry
-        level: 76%
+        level: 73%
 
       - name: Cloud (Azure, GCP)
         level: 61%
@@ -255,22 +266,25 @@ skills:
         level: 65%
       
       - name: PyTorch
-        level: 45%
+        level: 42%
       
       - name: Java
-        level: 59%
+        level: 54%
       
       - name: Git
         level: 78%
       
       - name: Web Development
-        level: 62%
+        level: 54%
 
       - name: PowerBI
-        level: 73%
+        level: 66%
 
       - name: PowerPoint
         level: 73%
+      
+      - name: Atlassian Stack
+        level: 80%
       
       - name: Consulting
         level: 84%

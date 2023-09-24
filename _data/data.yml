@@ -69,7 +69,7 @@ education:
         university: The University of Edinburgh
         time: 2018 - 2019
         details: |
-          Focus on Machine Learning methods, especially Computer Vision
+          Focus on Machine Learning methods, especially Computer Vision.
           Grade: 78 Distinction (1st)
             - Thesis: "Analysis of Feature Learning in CNNs on the Example of Video Recordings of Zebrafish" (implemented in Python)
             - Published at ICLR2020: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification"
@@ -236,23 +236,36 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Spark
+        level: 92%
 
-      - name: Angular
-        level: 98%
+      - name: SQL
+        level: 84%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Palantir Foundry Platform
+        level: 76%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Cloud (Azure, GCP)
+        level: 69%
+      
+      - name: PyTorch
         level: 60%
+      
+      - name: Java
+        level: 69%
+      
+      - name: Web Development
+        level: 62%
+
+      - name: PowerBI
+        level: 73%
+
+      - name: PowerPoint
+        level: 79%
 
 footer: >
+    © 2023 Bennet Breier
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

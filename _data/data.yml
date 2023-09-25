@@ -140,7 +140,7 @@ experiences:
         company: Unit8 SA, Zurich
         details: |
           - Establish a Foundry platform for data from several ESG data providers, distributed internally, for a large Swiss bank.
-	        - Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client. ("Entity Resolution")
+          - Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client. ("Entity Resolution")
           Tools: Palantir Foundry, PySpark, Atlassian
       - role: Research Internship
         time: Jul - Dec 2022

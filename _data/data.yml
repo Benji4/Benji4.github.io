@@ -163,6 +163,7 @@ experiences:
           - Develop an interactive dashboard for a consumer goods firm enhancing sales negotiations with retailers in the German market (PowerBI, MS SQL)
           - Advice on establishing a Center of Excellence for Process and Task Mining in a large German industrial manufacturing company (Celonis, PowerPoint)
           - Rotate through all five business-units via the Analytics Journey, a traineeship program.
+
           Other tools: Git, Atlassian, internal statistical tools
       - role: Internship (IT consulting) 
         time: Apr - Jun 2018
@@ -183,6 +184,21 @@ experiences:
           Design, implement, and test various business apps for iOS and Android.
           Tools: Git, Redmine, AppConKit, JavaScript, Java
 
+
+publications:
+    title: Publications
+    intro: 
+    papers:
+      - title: "Sharing generative models instead of private data: a simulation study on mammography patch classification"
+        link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12286/122860Q/Sharing-generative-models-instead-of-private-data--a-simulation/10.1117/12.2625781.short?SSO=1"
+        authors: Zuzanna Szafranowska, Richard Osuala, Bennet Breier, Kaisar Kushibar, Karim Lekadir, Oliver Diaz
+        conference: "16th International Workshop on Breast Imaging (IWBI2022)"
+
+      - title: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification"
+        link: "https://iclr.cc/virtual_2020/poster_rJgQkT4twH.html"
+        authors: Bennet Breier, Arno Onken
+        conference: "8th International Conference on Learning Representations (ICLR2020)"
+
 certifications:
       title: Certifications
       list:
@@ -190,45 +206,14 @@ certifications:
           start: Oct 2020
           end: Oct 2022
           organization: Google
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+          credentialid: 41886
+          credentialurl: https://www.credential.net/8cae1ab3-dbeb-4a41-a7b5-e3ee5593e486
+          credentialname: Show Google Certificate
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Professional Cloud Architects enable organizations to leverage Google Cloud technologies.
+            With a thorough understanding of cloud architecture and Google Cloud, they design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
+            Recommended experience: 3+ years of industry experience including 1+ years designing and managing solutions using Google Cloud
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 footer: >
     © 2023 Bennet Breier</br>

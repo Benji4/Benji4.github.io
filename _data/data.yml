@@ -124,8 +124,7 @@ education:
           Courses on the Mathematics of ML, computational neuroscience, and reinforcement learning.</br>
           Grade: 78 Distinction (1st)
             - Thesis: "Analysis of Feature Learning in CNNs on the Example of Video Recordings of Zebrafish" (implemented in Python)
-            - Published at ICLR2020: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification".
-            [See the code](https://github.com/Benji4/zebrafish-learning).
+            - Published at ICLR2020 conference. [&rarr; See the code](https://github.com/Benji4/zebrafish-learning).
       - degree: BSc in Computer Science and BSc in Business Administration
         university: Technische Universität München
         time: 2013 - 2018
@@ -145,7 +144,7 @@ experiences:
         details: |
           - Further develop the governance around the Foundry instance of a large Swiss reinsurance company.
           - Establish a Foundry platform for data from several ESG data providers, distributed internally, for a large Swiss bank.
-          Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client. ("Entity Resolution")
+          Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client (aka "Entity Resolution").
 
           Tools: Palantir Foundry, PySpark, Atlassian
       - role: Research Internship
@@ -160,7 +159,7 @@ experiences:
         company: BCN-AIM at University Barcelona, remote (Düsseldorf)
         details: |
           Improve the classification performance of CNNs and Transformers on 128x128px mammography images with GAN-generated synthetic data.
-          This lead to a joint publication at the IWBI2022 conference (see below). [See the code](https://github.com/RichardObi/mammo_gans_ext).\
+          This lead to a joint publication at the IWBI2022 conference (see below). [&rarr; See the code](https://github.com/RichardObi/mammo_gans_ext).\
           Tools: PyTorch, Git
       - role: Analytics Professional
         time: Jan 2020 - Sep 2021

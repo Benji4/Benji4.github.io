@@ -124,7 +124,8 @@ education:
           Courses on the Mathematics of ML, computational neuroscience, and reinforcement learning.</br>
           Grade: 78 Distinction (1st)
             - Thesis: "Analysis of Feature Learning in CNNs on the Example of Video Recordings of Zebrafish" (implemented in Python)
-            - Published at ICLR2020: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification"
+            - Published at ICLR2020: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification".
+            [See the code](https://github.com/Benji4/zebrafish-learning).
       - degree: BSc in Computer Science and BSc in Business Administration
         university: Technische Universität München
         time: 2013 - 2018
@@ -159,7 +160,7 @@ experiences:
         company: BCN-AIM at University Barcelona, remote (Düsseldorf)
         details: |
           Improve the classification performance of CNNs and Transformers on 128x128px mammography images with GAN-generated synthetic data.
-          This lead to a joint publication at the IWBI2022 conference (see below).\
+          This lead to a joint publication at the IWBI2022 conference (see below). [See the code](https://github.com/RichardObi/mammo_gans_ext).\
           Tools: PyTorch, Git
       - role: Analytics Professional
         time: Jan 2020 - Sep 2021

@@ -71,47 +71,47 @@ skills:
       - name: Python
         level: 97%
 
-      - name: Spark
+      - name: Apache Spark
         level: 92%
 
-      - name: SQL
-        level: 80%
-
-      - name: Palantir Foundry
-        level: 73%
-
-      - name: Cloud (Azure, GCP)
-        level: 61%
-      
-      - name: SciPy & Pandas
-        level: 65%
-      
-      - name: PyTorch
-        level: 42%
-      
-      - name: Java
-        level: 54%
-      
-      - name: Git
-        level: 78%
-      
-      - name: Web Development
-        level: 54%
-
-      - name: PowerBI
-        level: 66%
-
-      - name: PowerPoint
-        level: 73%
-      
-      - name: Atlassian Stack
-        level: 80%
-      
       - name: Consulting
         level: 84%
       
+      - name: SQL
+        level: 80%
+
+      - name: Git
+        level: 78%
+      
+      - name: SciPy & Pandas
+        level: 76%
+
+      - name: Palantir Foundry
+        level: 73%
+      
+      - name: Atlassian Stack
+        level: 70%
+
       - name: Team Leadership
-        level: 79%
+        level: 69%
+
+      - name: Cloud (Azure, GCP)
+        level: 61%
+
+      - name: PowerPoint
+        level: 57%
+
+      - name: PowerBI
+        level: 52%
+
+      - name: Java
+        level: 39%
+
+      - name: Web Development
+        level: 39%
+
+      - name: PyTorch
+        level: 34%
 
 education:
     title: Education

@@ -142,8 +142,9 @@ experiences:
         time: Jan 2023 - Present
         company: Unit8 SA, Zurich
         details: |
+          - Further develop the governance around the Foundry instance of a large Swiss reinsurance company.
           - Establish a Foundry platform for data from several ESG data providers, distributed internally, for a large Swiss bank.
-          - Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client. ("Entity Resolution")
+          Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client. ("Entity Resolution")
 
           Tools: Palantir Foundry, PySpark, Atlassian
       - role: Research Internship
@@ -151,8 +152,7 @@ experiences:
         company: Computational Neuroscience Lab, University Bern, Bern
         details: |
           Investigate the mathematics of and experiment with a new kind of biologically-plausible neural networks, enabling memory-requiring tasks.
-          I conducted multiple ML experiments with custom Neural Networks.
-          
+          I conducted multiple ML experiments with custom Neural Networks.\
           Tools: Python, Numpy, PyTorch, neptune.ai
       - role: External Collaborator 
         time: Nov 2021 - Jun 2022

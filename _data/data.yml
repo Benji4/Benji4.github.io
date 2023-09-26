@@ -104,13 +104,13 @@ skills:
       - name: PowerBI
         level: 55%
 
+      - name: PyTorch
+        level: 48%
+
       - name: Java
         level: 44%
 
       - name: Web Development
-        level: 44%
-
-      - name: PyTorch
         level: 40%
 
 education:
@@ -120,7 +120,8 @@ education:
         university: The University of Edinburgh
         time: 2018 - 2019
         details: |
-          Focus on Machine Learning methods, especially Computer Vision.
+          Focus on Machine Learning (ML) methods, especially Computer Vision.
+          Courses on the Mathematics of ML, computational neuroscience, and reinforcement learning.</br>
           Grade: 78 Distinction (1st)
             - Thesis: "Analysis of Feature Learning in CNNs on the Example of Video Recordings of Zebrafish" (implemented in Python)
             - Published at ICLR2020: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification"
@@ -128,6 +129,8 @@ education:
         university: Technische Universität München
         time: 2013 - 2018
         details: |
+          Foundational courses on databases, operating systems, logic, linear algebra, probability theory, and (optimization) algorithms.
+          Seminars on distributed systems and cryptography.</br>
           Grades: 1.6 (Computer Science) and 1.8 (Business Administration)
             - Thesis: "Technical Analysis of the Tangle in the IOTA-Environment"
             - Thesis: "A Framework for Integer Programs for Relocation in One-Way Carsharing Systems"
@@ -140,20 +143,22 @@ experiences:
         company: Unit8 SA, Zurich
         details: |
           - Establish a Foundry platform for data from several ESG data providers, distributed internally, for a large Swiss bank.
-          - Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client. ("Entity Resolution")
+          - Implement a pipeline for resolving the company IDs across several data providers, creating a unique ESG Company ID, and matching them with internal IDs of our client. ("Entity Resolution")</br>
           Tools: Palantir Foundry, PySpark, Atlassian
       - role: Research Internship
         time: Jul - Dec 2022
         company: Computational Neuroscience Lab, University Bern, Bern
         details: |
           Investigate the mathematics of and experiment with a new kind of biologically-plausible neural networks, enabling memory-requiring tasks.
-          Tools: Python, Numpy
+          I conducted multiple ML experiments with custom Neural Networks.</br>
+          Tools: Python, Numpy, PyTorch, neptune.ai
       - role: External Collaborator 
         time: Nov 2021 - Jun 2022
         company: BCN-AIM at University Barcelona, remote (Düsseldorf)
         details: |
           Improve the classification performance of CNNs and Transformers on 128x128px mammography images with GAN-generated synthetic data.
-          Tools: PyTorch, git
+          This lead to a joint publication at the IWBI2022 conference (see below).</br>
+          Tools: PyTorch, Git
       - role: Analytics Professional
         time: Jan 2020 - Sep 2021
         company: Deloitte, Düsseldorf
@@ -169,13 +174,13 @@ experiences:
         time: Apr - Jun 2018
         company: Senacor Technologies AG, Munich
         details: |
-          Advise program control on setting up and running global IT-systems to enable a smooth customer-ecosystem for a large German car maker.
+          Advise program control on setting up and running global IT-systems to enable a smooth customer-ecosystem for a large German car maker.</br>
           Tools: PowerPoint, Confluence
       - role: University Project Studies
         time: Jun - Aug 2016
         company: Accenture Services GmbH, Munich
         details: |
-          Develop a web-based system automating the process of organigram creation for one of Accenture's key-accounts.
+          Develop a web-based system automating the process of organigram creation for one of Accenture's key-accounts.</br>
           Tools:  Microsoft SharePoint, VBA, PowerShell, JavaScript, Java
       - role: Student Employee as Mobile-App Developer
         time: Sep 2013 - Jul 2014
@@ -183,7 +188,7 @@ experiences:
         details: |
           After studying Java in school, this was my first occupation to earn money with coding.
           I improved my skills with the client-server-architecture, learned how to collaborate, and experienced the whole lifecycle of a digital product.
-          Design, implement, and test various business apps for iOS and Android.
+          Design, implement, and test various business apps for iOS and Android.</br>
           Tools: Git, Redmine, AppConKit, JavaScript, Java
 
 
@@ -194,7 +199,7 @@ publications:
       - title: "Sharing generative models instead of private data: a simulation study on mammography patch classification"
         link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12286/122860Q/Sharing-generative-models-instead-of-private-data--a-simulation/10.1117/12.2625781.short?SSO=1"
         authors: Zuzanna Szafranowska, Richard Osuala, Bennet Breier, Kaisar Kushibar, Karim Lekadir, Oliver Diaz
-        conference: "16th International Workshop on Breast Imaging (IWBI2022)"
+        conference: 16th International Workshop on Breast Imaging (<b>IWBI2022</b>)
 
       - title: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification"
         link: "https://iclr.cc/virtual_2020/poster_rJgQkT4twH.html"
@@ -213,7 +218,7 @@ certifications:
           credentialname: Show Google Certificate
           details: |
             Professional Cloud Architects enable organizations to leverage Google Cloud technologies.
-            With a thorough understanding of cloud architecture and Google Cloud, they design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
+            With a thorough understanding of cloud architecture and Google Cloud, they design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.</br>
             Recommended experience: 3+ years of industry experience including 1+ years designing and managing solutions using Google Cloud
 
 

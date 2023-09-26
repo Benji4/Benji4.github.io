@@ -76,6 +76,9 @@ skills:
 
       - name: Consulting
         level: 84%
+
+      - name: Palantir Foundry
+        level: 81%
       
       - name: SQL
         level: 80%
@@ -85,33 +88,30 @@ skills:
       
       - name: SciPy & Pandas
         level: 76%
-
-      - name: Palantir Foundry
-        level: 73%
       
       - name: Atlassian Stack
-        level: 70%
+        level: 73%
 
       - name: Team Leadership
-        level: 69%
+        level: 71%
 
       - name: Cloud (Azure, GCP)
-        level: 61%
+        level: 63%
 
       - name: PowerPoint
-        level: 57%
+        level: 59%
 
       - name: PowerBI
-        level: 52%
+        level: 55%
 
       - name: Java
-        level: 39%
+        level: 44%
 
       - name: Web Development
-        level: 39%
+        level: 44%
 
       - name: PyTorch
-        level: 34%
+        level: 40%
 
 education:
     title: Education
@@ -165,7 +165,7 @@ experiences:
           - Rotate through all five business-units via the Analytics Journey, a traineeship program.
 
           Other tools: Git, Atlassian, internal statistical tools
-      - role: Internship (IT consulting) 
+      - role: Internship in IT Consulting
         time: Apr - Jun 2018
         company: Senacor Technologies AG, Munich
         details: |
@@ -177,10 +177,12 @@ experiences:
         details: |
           Develop a web-based system automating the process of organigram creation for one of Accenture's key-accounts.
           Tools:  Microsoft SharePoint, VBA, PowerShell, JavaScript, Java
-      - role: Student employee (App-Development)
+      - role: Student Employee as Mobile-App Developer
         time: Sep 2013 - Jul 2014
         company: Weptun GmbH, Munich
         details: |
+          After studying Java in school, this was my first occupation to earn money with coding.
+          I improved my skills with the client-server-architecture, learned how to collaborate, and experienced the whole lifecycle of a digital product.
           Design, implement, and test various business apps for iOS and Android.
           Tools: Git, Redmine, AppConKit, JavaScript, Java
 
@@ -197,7 +199,7 @@ publications:
       - title: "Analysis of Video Feature Learning in Two-Stream CNNs on the Example of Zebrafish Swim Bout Classification"
         link: "https://iclr.cc/virtual_2020/poster_rJgQkT4twH.html"
         authors: Bennet Breier, Arno Onken
-        conference: "8th International Conference on Learning Representations (ICLR2020)"
+        conference: 8th International Conference on Learning Representations (<b>ICLR2020</b>)
 
 certifications:
       title: Certifications

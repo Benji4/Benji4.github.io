@@ -159,7 +159,7 @@ experiences:
         company: BCN-AIM at University Barcelona, remote (Düsseldorf)
         details: |
           Improve the classification performance of CNNs and Transformers on 128x128px mammography images with GAN-generated synthetic data.
-          This lead to a joint publication at the IWBI2022 conference (see below).</br>
+          This lead to a joint publication at the IWBI2022 conference (see below).\
           Tools: PyTorch, Git
       - role: Analytics Professional
         time: Jan 2020 - Sep 2021
@@ -176,13 +176,13 @@ experiences:
         time: Apr - Jun 2018
         company: Senacor Technologies AG, Munich
         details: |
-          Advise program control on setting up and running global IT-systems to enable a smooth customer-ecosystem for a large German car maker.</br>
+          Advise program control on setting up and running global IT-systems to enable a smooth customer-ecosystem for a large German car maker.\
           Tools: PowerPoint, Confluence
       - role: University Project Studies
         time: Jun - Aug 2016
         company: Accenture Services GmbH, Munich
         details: |
-          Develop a web-based system automating the process of organigram creation for one of Accenture's key-accounts.</br>
+          Develop a web-based system automating the process of organigram creation for one of Accenture's key-accounts.\
           Tools:  Microsoft SharePoint, VBA, PowerShell, JavaScript, Java
       - role: Student Employee as Mobile-App Developer
         time: Sep 2013 - Jul 2014
@@ -190,7 +190,7 @@ experiences:
         details: |
           After studying Java in school, this was my first occupation to earn money with coding.
           I improved my skills with the client-server-architecture, learned how to collaborate, and experienced the whole lifecycle of a digital product.
-          Design, implement, and test various business apps for iOS and Android.</br>
+          Design, implement, and test various business apps for iOS and Android.\
           Tools: Git, Redmine, AppConKit, JavaScript, Java
 
 

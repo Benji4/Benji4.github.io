@@ -20,7 +20,7 @@ const display = (href: string) => href.replace(/^https?:\/\/(www\.)?/, '').repla
 <Base title="CV" description={`${profile.name}: ${profile.headline}. CV.`}>
   <div class="cv">
     <header class="cv-head">
-      <img src={profile.photo} alt={`Portrait of ${profile.name}`} width="112" height="112" />
+      <img src={profile.photo} alt={`Portrait of ${profile.name}`} width="123" height="123" />
       <div>
         <h1>{profile.name}</h1>
         <p class="headline">{profile.headline}</p>
@@ -135,7 +135,7 @@ const display = (href: string) => href.replace(/^https?:\/\/(www\.)?/, '').repla
 
   @media (max-width: 40rem) {
     .cv-head { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
-    .cv-head img { width: 88px; height: 88px; }
+    .cv-head img { width: 97px; height: 97px; }
     .print-btn { position: static; }
     .competencies { grid-template-columns: 1fr; gap: 0.1rem; }
     .competencies dd { margin-bottom: 0.6rem; }

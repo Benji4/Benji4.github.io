@@ -35,10 +35,7 @@ export const profile = {
 
 export const certifications: Link[] = [
   { label: 'Palantir Foundry Solution Architect', href: '' },
-  {
-    label: 'Google Cloud Professional Cloud Architect',
-    href: 'https://www.credential.net/8cae1ab3-dbeb-4a41-a7b5-e3ee5593e486',
-  },
+  { label: 'Google Cloud Professional Cloud Architect', href: '' },
 ];
 
 export const competencies: { area: string; items: string }[] = [

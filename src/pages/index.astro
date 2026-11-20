@@ -28,7 +28,7 @@ const display = (href: string) => href.replace(/^https?:\/\/(www\.)?/, '').repla
           <span>{profile.location}</span>
           <a href={`mailto:${profile.email}`}>{profile.email}</a>
           {profile.links.map((link) => (
-            <a href={link.href}>
+            <a href={link.href} target="_blank" rel="noopener noreferrer">
               <span class="screen-only">{link.label}</span>
               <span class="print-only">{display(link.href)}</span>
             </a>
@@ -46,7 +46,7 @@ const display = (href: string) => href.replace(/^https?:\/\/(www\.)?/, '').repla
         {certifications.map((cert, i) => (
           <>
             {i > 0 && ' · '}
-            {cert.href ? <a href={cert.href}>{cert.label}</a> : cert.label}
+            {cert.href ? <a href={cert.href} target="_blank" rel="noopener noreferrer">{cert.label}</a> : cert.label}
           </>
         ))}
       </p>
@@ -83,7 +83,7 @@ const display = (href: string) => href.replace(/^https?:\/\/(www\.)?/, '').repla
       <h2>Publications</h2>
       <ul class="pubs">
         {publications.map((pub) => (
-          <li><a href={pub.href}>{pub.title}</a>. {pub.venue}.</li>
+          <li><a href={pub.href} target="_blank" rel="noopener noreferrer">{pub.title}</a>. {pub.venue}.</li>
         ))}
       </ul>
     </section>
@@ -97,7 +97,7 @@ const display = (href: string) => href.replace(/^https?:\/\/(www\.)?/, '').repla
       <h2>Personal</h2>
       <p>
         {personal.text}
-        {personal.links.map((link) => <> <a href={link.href}>{link.label}</a>.</>)}
+        {personal.links.map((link) => <> <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>.</>)}
       </p>
     </section>
 

@@ -25,7 +25,7 @@ const { entry } = Astro.props;
   {entry.stack && <p class="stack"><strong>Stack:</strong> {entry.stack}</p>}
   {entry.links && (
     <p class="entry-links">
-      {entry.links.map((link) => <a href={link.href}>{link.label} ↗</a>)}
+      {entry.links.map((link) => <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>)}
     </p>
   )}
 </article>

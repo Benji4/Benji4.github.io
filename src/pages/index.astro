@@ -1,0 +1,155 @@
+---
+import Base from '../layouts/Base.astro';
+import CvEntry from '../components/CvEntry.astro';
+import {
+  profile,
+  certifications,
+  competencies,
+  experience,
+  research,
+  education,
+  publications,
+  languages,
+  personal,
+  footnote,
+} from '../data/cv';
+
+const display = (href: string) => href.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+---
+
+<Base title="CV" description={`${profile.name}: ${profile.headline}. CV.`}>
+  <div class="cv">
+    <header class="cv-head">
+      <img src={profile.photo} alt={`Portrait of ${profile.name}`} width="112" height="112" />
+      <div>
+        <h1>{profile.name}</h1>
+        <p class="headline">{profile.headline}</p>
+        <p class="contact">
+          <span>{profile.location}</span>
+          <a href={`mailto:${profile.email}`}>{profile.email}</a>
+          {profile.links.map((link) => (
+            <a href={link.href}>
+              <span class="screen-only">{link.label}</span>
+              <span class="print-only">{display(link.href)}</span>
+            </a>
+          ))}
+        </p>
+      </div>
+      <button class="print-btn no-print" type="button" onclick="window.print()">Save as PDF</button>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      {profile.summary.map((paragraph) => <p>{paragraph}</p>)}
+      <p class="certs">
+        <strong>Certified:</strong>{" "}
+        {certifications.map((cert, i) => (
+          <>
+            {i > 0 && ' · '}
+            {cert.href ? <a href={cert.href}>{cert.label}</a> : cert.label}
+          </>
+        ))}
+      </p>
+    </section>
+
+    <section>
+      <h2>Core competencies</h2>
+      <dl class="competencies">
+        {competencies.map(({ area, items }) => (
+          <>
+            <dt>{area}</dt>
+            <dd>{items}</dd>
+          </>
+        ))}
+      </dl>
+    </section>
+
+    <section>
+      <h2>Professional experience</h2>
+      {experience.map((entry) => <CvEntry entry={entry} />)}
+    </section>
+
+    <section>
+      <h2>Research experience</h2>
+      {research.map((entry) => <CvEntry entry={entry} />)}
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      {education.map((entry) => <CvEntry entry={entry} />)}
+    </section>
+
+    <section>
+      <h2>Publications</h2>
+      <ul class="pubs">
+        {publications.map((pub) => (
+          <li><a href={pub.href}>{pub.title}</a>. {pub.venue}.</li>
+        ))}
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <p>{languages}</p>
+    </section>
+
+    <section>
+      <h2>Personal</h2>
+      <p>
+        {personal.text}
+        {personal.links.map((link) => <> <a href={link.href}>{link.label}</a>.</>)}
+      </p>
+    </section>
+
+    <p class="footnote">{footnote}</p>
+  </div>
+</Base>
+
+<style>
+  .cv-head { display: flex; gap: 1.25rem; align-items: center; margin-bottom: 1.5rem; position: relative; }
+  .cv-head img { border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+  h1 { margin: 0; font-size: 2rem; letter-spacing: -0.01em; }
+  .headline { margin: 0.2rem 0 0.4rem; color: var(--accent); font-weight: 550; }
+  .contact { margin: 0; display: flex; flex-wrap: wrap; gap: 0.15rem 1rem; font-size: 0.9rem; color: var(--muted); }
+  .print-btn {
+    position: absolute; top: 0; right: 0;
+    font: inherit; font-size: 0.85rem; cursor: pointer;
+    padding: 0.35rem 0.75rem; border-radius: 6px;
+    border: 1px solid var(--rule); background: transparent; color: var(--text);
+  }
+  .print-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .print-only { display: none; }
+
+  h2 {
+    font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent);
+    margin: 2rem 0 0.75rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--rule);
+    break-after: avoid-page;
+  }
+  section p { margin: 0.5rem 0; }
+  .competencies { display: grid; grid-template-columns: 11rem 1fr; gap: 0.4rem 1rem; margin: 0; }
+  .competencies dt { font-weight: 600; }
+  .competencies dd { margin: 0; }
+  .pubs { padding-left: 1.2rem; margin: 0; }
+  .pubs li { margin: 0.3rem 0; }
+  .footnote { margin-top: 2rem; font-size: 0.8rem; color: var(--muted); }
+
+  @media (max-width: 40rem) {
+    .cv-head { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+    .cv-head img { width: 88px; height: 88px; }
+    .print-btn { position: static; }
+    .competencies { grid-template-columns: 1fr; gap: 0.1rem; }
+    .competencies dd { margin-bottom: 0.6rem; }
+  }
+
+  @media print {
+    .cv-head { margin-bottom: 0.6rem; }
+    .cv-head img { width: 72px; height: 72px; }
+    h1 { font-size: 20pt; }
+    .headline { color: #000; }
+    .screen-only { display: none; }
+    .print-only { display: inline; }
+    h2 { margin: 1rem 0 0.4rem; color: #000; }
+    .competencies { grid-template-columns: 9.5rem 1fr; gap: 0.2rem 0.8rem; }
+    .footnote { margin-top: 1rem; }
+  }
+</style>

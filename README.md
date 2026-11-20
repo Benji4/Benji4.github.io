@@ -1,90 +1,56 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# benji4.github.io
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+Personal site of Bennet Breier: CV and blog, built with [Astro](https://astro.build) and
+published to GitHub Pages at <https://benji4.github.io>.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+## Run it locally
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
-
-## Installation
-
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
-
-Change all the details from one place: `_data/data.yml`.
-
-### To preview/edit locally with docker
+Requires Node.js 22 or newer.
 
 ```sh
-docker-compose up
+npm install
+npm run dev      # http://localhost:4321, reloads on save
+npm run build    # writes the static site to dist/
+npm run preview  # serves dist/ to check the build
 ```
 
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
+## Where things live
 
-### Local machine
+| What | File |
+| --- | --- |
+| CV content (jobs, education, skills, …) | `src/data/cv.ts` |
+| CV page layout and print styles | `src/pages/index.astro`, `src/components/CvEntry.astro` |
+| Blog posts | `src/content/blog/*.md` |
+| Site-wide layout, header, footer | `src/layouts/Base.astro` |
+| Colours and shared styles | `src/styles/global.css` |
+| Static files (photo, favicon) | `public/` |
 
-* Get the repo into your machine 
+## Updating the CV
 
-```bash
-git clone https://github.com/sharu725/online-cv.git
+Edit `src/data/cv.ts` and push. To get a PDF, open the CV page and click **Save as PDF**
+(or use the browser's print dialog and choose "Save as PDF"). The print styles produce a
+clean A4 layout without the site navigation.
+
+## Writing a blog post
+
+Add a Markdown file to `src/content/blog/`, for example `my-post.md`, which is published at
+`/blog/my-post/`:
+
+```md
+---
+title: 'My post'
+description: 'One sentence for the post list and RSS feed.'
+pubDate: 2026-11-20
+draft: false   # true keeps it out of the published site
+---
+
+Post text in Markdown.
 ```
 
-* Install required ruby gems
+New posts appear on `/blog/`, in the RSS feed at `/rss.xml` and in the sitemap.
 
-```bash
-bundle install
-```
+## Deployment
 
-* Serve the site locally
-
-```bash
-bundle exec jekyll serve
-```
-
-* Navigate to `http://localhost:4000`
-
-
-## Skins
-
-There are 6 color schemes available:
-
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
-
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
-
-## Credits
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
-
+`.github/workflows/deploy.yml` builds and deploys the site on every push to `master`.
+In the repository settings, Pages → Build and deployment → Source must be set to
+**GitHub Actions**.

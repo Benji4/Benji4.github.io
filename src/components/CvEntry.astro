@@ -1,0 +1,51 @@
+---
+import type { Entry } from '../data/cv';
+
+interface Props {
+  entry: Entry;
+}
+
+const { entry } = Astro.props;
+---
+
+<article class="entry">
+  <header>
+    <h3>{entry.title} <span class="org">· {entry.org}</span></h3>
+    <span class="dates">{entry.dates}</span>
+  </header>
+  {entry.summary && <p class="summary">{entry.summary}</p>}
+  {entry.groups?.map((group) => (
+    <>
+      {group.label && <p class="group-label">{group.label}</p>}
+      <ul>
+        {group.items.map((item) => <li>{item}</li>)}
+      </ul>
+    </>
+  ))}
+  {entry.stack && <p class="stack"><strong>Stack:</strong> {entry.stack}</p>}
+  {entry.links && (
+    <p class="entry-links">
+      {entry.links.map((link) => <a href={link.href}>{link.label} ↗</a>)}
+    </p>
+  )}
+</article>
+
+<style>
+  .entry { margin: 0 0 1.25rem; break-inside: avoid-page; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 0.25rem 1rem; flex-wrap: wrap; }
+  h3 { font-size: 1rem; margin: 0; }
+  .org { font-weight: 400; color: var(--muted); }
+  .dates { color: var(--muted); font-size: 0.9rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .summary { margin: 0.2rem 0 0; font-style: italic; color: var(--muted); }
+  .group-label { margin: 0.5rem 0 0; font-weight: 600; font-size: 0.95rem; }
+  ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+  li { margin: 0.15rem 0; }
+  .stack, .entry-links { margin: 0.35rem 0 0; font-size: 0.9rem; color: var(--muted); }
+  .entry-links a { margin-right: 1rem; }
+
+  @media print {
+    .entry { margin-bottom: 0.8rem; }
+    li { margin: 0.05rem 0; }
+    .entry-links { display: none; }
+  }
+</style>

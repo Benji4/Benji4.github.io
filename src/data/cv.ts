@@ -18,12 +18,12 @@ export interface Entry {
 
 export const profile = {
   name: 'Bennet Breier',
-  headline: 'Data Architect · Palantir Foundry · GenAI in Financial Services',
+  headline: 'Data and AI Architect · Palantir Foundry · GenAI in Financial Services',
   location: 'Bern, Switzerland',
   email: 'bennetbreier@gmail.com',
   photo: '/images/bennet.jpg',
   links: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/bennetbreier' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/bennet-breier' },
     { label: 'GitHub', href: 'https://github.com/Benji4' },
     { label: 'Stack Overflow', href: 'https://stackoverflow.com/users/3692004/benji' },
   ] satisfies Link[],
